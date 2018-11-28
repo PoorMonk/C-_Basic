@@ -9,6 +9,9 @@ namespace PersonInfomation
             Person person = new Person("Joah", 24, 12345, 100000);
             Console.WriteLine("MyInfo:");
             Console.WriteLine("name:{0}, level:{1}, hp:{2}, exp:{3}", person.Name, person.Level, person.Hp, person.Exp);
+
+            Console.WriteLine("I\'m Joah");
+            Console.WriteLine(@"I'm Joah");
         }
 
         public class Person
